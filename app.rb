@@ -18,7 +18,6 @@ module Name
     set :database, "sqlite3:///database.db"
 
     #filters
-
     #routes
     get '/' do
       erb :index
