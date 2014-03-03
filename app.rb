@@ -17,8 +17,12 @@ module Name
     #filters
     #routes
     get '/' do
-      erb :index
+      haml :index
     end
+
+    get '/old' do
+      erb :old
+    end 
 
     #helpers
     helpers do

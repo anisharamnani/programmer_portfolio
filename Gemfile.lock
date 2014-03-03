@@ -20,7 +20,14 @@ GEM
     atomic (1.1.10)
     bond (0.4.3)
     builder (3.1.4)
+    commonjs (0.2.7)
+    font-awesome-less (4.0.3)
+      less (~> 2.4.0)
+    haml (4.0.5)
+      tilt
     i18n (0.6.4)
+    less (2.4.0)
+      commonjs (~> 0.2.7)
     minitest (4.7.5)
     multi_json (1.7.7)
     rack (1.5.2)
@@ -61,6 +68,8 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  font-awesome-less
+  haml
   rake
   shotgun
   sinatra
